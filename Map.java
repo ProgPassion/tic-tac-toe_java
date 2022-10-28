@@ -3,7 +3,7 @@ public class Map {
     private Square[] map;
 
     public Map(int numOfSquare) {
-        this.map = new Square[9];
+        this.map = new Square[numOfSquare];
         for(int i = 0; i < numOfSquare; i++) {
             this.map[i] = new Square(i + 1);
         }
